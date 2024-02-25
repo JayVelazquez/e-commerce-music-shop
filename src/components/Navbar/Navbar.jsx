@@ -3,7 +3,7 @@ import { AppBar, Toolbar, IconButton, Badge, Typography } from '@material-ui/cor
 import { ShoppingCart } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
 
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.webp';
 import useStyles from './styles';
 
 const Navbar = ( { totalItems }) => {  
@@ -15,8 +15,8 @@ const Navbar = ( { totalItems }) => {
         <>
             <AppBar position='fixed' className={classes.appBar} color="inherit">
                 <Toolbar>
-                    <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-                        <img src={logo} alt="Music Shop" height="50px" className={classes.image} />
+                    <Typography component={Link} to="/" variant="h5" fontWeight="bold" className={classes.title} color="inherit">
+                        <img src={logo} width="50px" height="50px" alt="Music Shop Logo" className={classes.image} />
                         Music Shop
                     </Typography>
                     <div className={classes.grow} />

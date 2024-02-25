@@ -1,5 +1,5 @@
 # E-Commerce Music Shop
-A full online music shop e-commerce website
+An e-commerce music shop enabling users to add items to their cart, review selections, and complete self-checkout.
 
 
 ## Table of Contents
